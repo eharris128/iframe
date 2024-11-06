@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Iframe Example</title>
+</head>
+<body>
+    <h1>Two Iframe Examples</h1>
+    <iframe src="https://mahashantischoolofyoga.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    <div id="custom-substack-embed"></div>
+
+
+    <script>
+    window.CustomSubstackWidget = {
+        substackUrl: "mahashantischoolofyoga.substack.com",
+        placeholder: "example@gmail.com",
+        buttonText: "Subscribe",
+        theme: "orange",
+
+        // Go to substackapi.com to unlock custom redirect
+
+    };
+    </script>
+    <script src="https://substackapi.com/widget.js" async></script>
+</body>
+</html>
